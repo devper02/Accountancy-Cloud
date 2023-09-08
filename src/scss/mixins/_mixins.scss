@@ -1,0 +1,44 @@
+//! headings
+@mixin main-heading {
+  font-size: 77px;
+  font-weight: $accent-fw;
+  line-height: 82.8px; /* 107.532% */
+}
+@mixin headings {
+  font-size: 58px;
+  font-weight: $accent-fw;
+  line-height: 57.6px; /* 99.31% */
+}
+
+//! paragraphs
+@mixin paragraph {
+  font-size: 20px;
+  font-weight: $main-fw;
+  line-height: 30.6px; /* 153% */
+}
+
+//! btns
+@mixin btn-pink {
+  border-radius: 100px;
+  padding: 12px 30px;
+  transition: all 0.2s ease-in-out;
+  background: $btn-color;
+  &:hover,
+  :focus {
+    background-color: $btn-hover-color;
+  }
+}
+
+@mixin btn-black {
+  border-radius: 100px;
+  padding: 12px 30px;
+  color: $white-text;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #000;
+  background: $btn-black-color;
+  &:hover,
+  :focus {
+    background-color: transparent;
+    color: $btn-black-color;
+  }
+}
