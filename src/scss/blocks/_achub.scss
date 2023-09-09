@@ -1,0 +1,24 @@
+.achub {
+  padding-bottom: 107px;
+}
+.achub-row {
+  display: flex;
+  align-items: center;
+  & img {
+    padding: 107px 0 78px 0;
+  }
+}
+.achub__row-info__block {
+  & h2 {
+    margin-bottom: 40px;
+    @include headings;
+  }
+  & p {
+    width: 547px;
+    margin-bottom: 79px;
+    @include paragraph;
+  }
+  & button {
+    @include btn-pink;
+  }
+}

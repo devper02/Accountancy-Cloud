@@ -1,0 +1,26 @@
+.switch {
+  padding: 108px 0;
+}
+.switch-row {
+  display: flex;
+  align-items: center;
+  height: 283px;
+  border-radius: 10px;
+  background-color: $bg-blue-color;
+}
+.switch__row-text__block {
+  padding: 0 90px;
+  & h2 {
+    width: 750px;
+    margin-bottom: 18px;
+    @include headings;
+  }
+  & p {
+    @include paragraph;
+  }
+}
+.switch__row-btn__block {
+  & button {
+    @include btn-black;
+  }
+}

@@ -1,0 +1,21 @@
+.companies {
+  padding: 36px 0;
+}
+.companies-row {
+  display: flex;
+}
+.companies-text__block {
+  padding: 92px 0 285px 0;
+  width: 236px;
+  margin-right: 116px;
+  & h3 {
+    font-size: 27px;
+    line-height: 36px; /* 133.333% */
+  }
+}
+.companies-img__blocks {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 33px;
+  padding: 71px 0;
+}
