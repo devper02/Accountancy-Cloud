@@ -1,0 +1,28 @@
+.finances-stack {
+  padding: 54px 0 44px 0;
+}
+
+.finances__stack-row {
+  display: flex;
+  & img {
+    width: 483px;
+    height: 280px;
+    margin-right: 104px;
+  }
+}
+.finances__stack__row-info__block {
+  padding: 51px 0 126px 0;
+  & h2 {
+    width: 443px;
+    margin-bottom: 33px;
+    @include headings;
+  }
+  & p {
+    width: 515px;
+    @include paragraph;
+  }
+  & a {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}

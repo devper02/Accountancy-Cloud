@@ -1,6 +1,7 @@
 //! headings
 @mixin main-heading {
   font-size: 77px;
+  padding: 27px 0;
   font-weight: $accent-fw;
   line-height: 82.8px; /* 107.532% */
 }
@@ -8,6 +9,14 @@
   font-size: 58px;
   font-weight: $accent-fw;
   line-height: 57.6px; /* 99.31% */
+}
+
+@mixin headerLinks {
+  color: $main-color;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: $header-link-hover;
+  }
 }
 
 //! paragraphs
@@ -22,10 +31,12 @@
   border-radius: 100px;
   padding: 12px 30px;
   transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
   background: $btn-color;
   &:hover,
   :focus {
-    background-color: $btn-hover-color;
+    border: 1px solid $main-color;
+    background-color: transparent;
   }
 }
 
@@ -40,5 +51,19 @@
   :focus {
     background-color: transparent;
     color: $btn-black-color;
+  }
+}
+
+@mixin btn-transparent {
+  border-radius: 100px;
+  padding: 12px 30px;
+  color: $btn-black-color;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #000;
+  background-color: transparent;
+  &:hover,
+  :focus {
+    background: $btn-black-color;
+    color: $white-text;
   }
 }
