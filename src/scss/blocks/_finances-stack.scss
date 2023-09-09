@@ -22,7 +22,6 @@
     @include paragraph;
   }
   & a {
-    color: $link-color;
-    text-decoration: underline;
+    @include links;
   }
 }

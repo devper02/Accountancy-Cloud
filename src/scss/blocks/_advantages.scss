@@ -34,8 +34,7 @@
     font-size: 18px;
     line-height: 24px; /* 133.333% */
     & a {
-      color: $link-color;
-      text-decoration: underline;
+      @include links;
     }
   }
 }

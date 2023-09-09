@@ -67,3 +67,23 @@
     color: $white-text;
   }
 }
+
+@mixin links {
+  color: $link-color;
+  transition: all .2s ease-in-out;
+  text-decoration: underline;
+  &:hover,:focus {
+    color: $hover-link-color;
+  }
+}
+
+@mixin footerLink {
+  color: $footer-link-color;
+  font-size: 16px;
+  line-height: 16.2px; /* 101.25% */
+  transition: all 0.2s ease-in-out;
+  &:hover,
+  :focus {
+    color: $footer-link-hover-color;
+  }
+}
