@@ -25,6 +25,9 @@
 }
 .footer__main__row__links-block {
   margin-right: 60px;
+  &:last-child {
+    margin-right: 0;
+  }
   & h3 {
     margin-bottom: 12px;
     color: $footer-text-color;

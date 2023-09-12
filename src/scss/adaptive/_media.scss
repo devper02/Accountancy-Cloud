@@ -1,0 +1,768 @@
+// 1024px
+@media (max-width: 1024px) {
+  .header__top-row {
+    & ul {
+      & li {
+        margin-right: 15px;
+        &:last-child {
+          margin-right: 17px;
+        }
+      }
+    }
+  }
+
+  #login {
+    padding: 9px 20px;
+    margin-right: 10px;
+  }
+
+  #Talk-to-an-Expert {
+    padding: 9px 20px;
+  }
+
+  .header-main {
+    padding: 27px 0 52px 0;
+  }
+
+  .header__main-row {
+    & img {
+      width: 567px;
+      height: 390px;
+    }
+  }
+
+  .header__main__row-info__block {
+    margin-bottom: 52px;
+    margin-right: 48px;
+    & h1 {
+      font-size: 71px;
+    }
+    & p {
+      font-size: 18px;
+    }
+    & h4 {
+      color: $main-color;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 27px;
+      line-height: 24px; /* 133.333% */
+    }
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .finances__stack-row {
+    & img {
+      padding-top: 70px;
+      width: 383px;
+      height: 350px;
+      margin-right: 74px;
+    }
+  }
+  .finances__stack__row-info__block {
+    & h2 {
+      font-size: 48px;
+      margin-bottom: 26px;
+    }
+    & p {
+      font-size: 17px;
+    }
+  }
+  .advantages {
+    padding: 34px;
+  }
+  .advantages__row-text__block {
+    padding-top: 30px;
+    & h2 {
+      font-size: 48px;
+    }
+  }
+  .advantages__row-companies__blocks {
+    display: flex;
+    margin-bottom: 72px;
+    gap: 44px;
+  }
+  .advantages__row-companies__block {
+    & img {
+      margin-bottom: 18px;
+    }
+    & h3 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    & p {
+      width: 240px;
+      font-size: 17px;
+    }
+  }
+
+  .advantages__row-btn__block {
+    width: 230px;
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .plans {
+    padding: 78px 0;
+  }
+  .plans__row-text__block {
+    margin-bottom: 72px;
+    font-size: 48px;
+  }
+  .plans__row-stage__blocks {
+    gap: 40px;
+  }
+  .plans__row-stage__block {
+    & img {
+      margin-bottom: 18px;
+      width: 249px;
+      height: 149px;
+    }
+    & h3 {
+      font-size: 24px;
+      margin-bottom: 8px;
+      line-height: 36px; /* 128.571% */
+    }
+    & p {
+      width: 294px;
+      font-size: 17px;
+    }
+  }
+  .companies-text__block {
+    width: 190px;
+    margin-right: 76px;
+    & h3 {
+      font-size: 25px;
+    }
+  }
+  .companies-img__blocks {
+    grid-template-columns: 170px 170px 170px;
+    gap: 43px;
+  }
+  .achub {
+    padding-bottom: 0;
+  }
+  .achub-row {
+    & img {
+      padding: 89px 0 89px 0;
+      width: 383px;
+      height: 551px;
+    }
+  }
+  .achub__row-info__block {
+    margin-right: 80px;
+    & h2 {
+      margin-bottom: 30px;
+      font-size: 48px;
+    }
+    & p {
+      width: 447px;
+      margin-bottom: 59px;
+      font-size: 17px;
+    }
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .switch {
+    padding: 108px 0;
+  }
+  .switch-row {
+    display: flex;
+    align-items: center;
+    height: 283px;
+    border-radius: 10px;
+    background-color: $bg-blue-color;
+  }
+  .switch__row-text__block {
+    padding: 0 90px;
+    & h2 {
+      width: 600px;
+      font-size: 47px;
+    }
+    & p {
+      font-size: 18px;
+    }
+  }
+  .switch__row-btn__block {
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .footer-row {
+    row-gap: 35px;
+  }
+  .footer__top-row {
+    display: flex;
+    align-items: center;
+    & img {
+      margin-right: 18px;
+    }
+    & h3 {
+      color: $footer-text-color;
+      font-size: 28px;
+      line-height: 36px; /* 128.571% */
+    }
+  }
+  .footer__main__row-links__blocks {
+    display: flex;
+    padding-bottom: 81px;
+  }
+  .footer__main__row__links-block {
+    margin-right: 60px;
+    &:last-child {
+      margin-right: 0;
+    }
+    & h3 {
+      margin-bottom: 12px;
+      color: $footer-text-color;
+    }
+    & li {
+      width: 153px;
+      margin-bottom: 8px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer__undermain__row-links_block {
+    & li {
+      margin-bottom: 8px;
+      width: 163px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer__bottom__row-text__block {
+    & h4 {
+      margin-right: 27px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 992px
+@media (max-width: 992px) {
+  // menu burger
+  .nav {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    right: -350px;
+    top: 0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px;
+    transition: transform 0.5s, visibility 0.4s;
+    display: grid;
+    visibility: hidden;
+    align-items: center;
+    & ul {
+      display: grid;
+      margin-bottom: 15px;
+      & li {
+        font-size: 20px;
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    & #login {
+      width: 300px;
+      margin-bottom: 10px;
+    }
+    & #Talk-to-an-Expert {
+      width: 300px;
+    }
+    width: 350px;
+    background-color: $btn-color;
+  }
+  .header__burger-btn {
+    display: block;
+  }
+
+  .header-main {
+    padding: 27px 0 52px 0;
+  }
+
+  .header__main-row {
+    & img {
+      width: 467px;
+      height: 390px;
+    }
+  }
+
+  .header__main__row-info__block {
+    & h1 {
+      font-size: 66px;
+    }
+    & p {
+      width: 400px;
+      font-size: 16px;
+    }
+    & h4 {
+      font-size: 17px;
+    }
+    & button {
+      padding: 9px 15px;
+    }
+  }
+  .finances__stack-row {
+    & img {
+      padding-top: 100px;
+      width: 283px;
+      height: 290px;
+      margin-right: 74px;
+    }
+  }
+  .finances__stack__row-info__block {
+    & h2 {
+      font-size: 44px;
+      margin-bottom: 26px;
+    }
+    & p {
+      font-size: 15px;
+    }
+  }
+  .advantages__row-text__block {
+    & h2 {
+      font-size: 44px;
+    }
+  }
+  .advantages__row-companies__blocks {
+    gap: 20px;
+  }
+  .advantages__row-companies__block {
+    & img {
+      margin-bottom: 14px;
+    }
+    & h3 {
+      font-size: 22px;
+    }
+    & p {
+      width: 232px;
+      font-size: 15px;
+    }
+  }
+  .advantages__row-btn__block {
+    width: 230px;
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .plans {
+    padding: 78px 0;
+  }
+  .plans__row-text__block {
+    margin-bottom: 72px;
+    font-size: 48px;
+  }
+  .plans__row-stage__blocks {
+    gap: 40px;
+  }
+  .plans__row-stage__block {
+    & img {
+      margin-bottom: 18px;
+      width: 249px;
+      height: 149px;
+    }
+    & h3 {
+      font-size: 22px;
+    }
+    & p {
+      width: 232px;
+      font-size: 15px;
+    }
+  }
+  .companies-img__blocks {
+    grid-template-columns: 150px 150px 150px;
+    gap: 33px;
+  }
+  .achub-row {
+    & img {
+      padding: 89px 0 89px 0;
+      width: 283px;
+      height: 451px;
+    }
+  }
+  .achub__row-info__block {
+    margin-right: 80px;
+    & h2 {
+      margin-bottom: 30px;
+      font-size: 44px;
+    }
+
+    & p {
+      width: 380px;
+      margin-bottom: 59px;
+      font-size: 15px;
+    }
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .switch__row-text__block {
+    padding: 0 90px;
+    & h2 {
+      width: 570px;
+      font-size: 44px;
+    }
+    & p {
+      font-size: 15px;
+    }
+  }
+  .switch__row-btn__block {
+    & button {
+      padding: 9px 20px;
+    }
+  }
+  .footer__main__row__links-block {
+    margin-right: 52px;
+    &:last-child {
+      margin-right: 0;
+    }
+    & h3 {
+      margin-bottom: 12px;
+      color: $footer-text-color;
+    }
+    & li {
+      width: 153px;
+      margin-bottom: 8px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer__undermain__row-links_block {
+    & li {
+      margin-bottom: 8px;
+      width: 163px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+  .footer__bottom__row-text__block {
+    & h4 {
+      margin-right: 27px;
+      & a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 768px
+@media (max-width: 768px) {
+  .header__main__row-info__block {
+    margin-right: 0;
+    & h1 {
+      font-size: 56px;
+    }
+    & p {
+      margin-bottom: 66px;
+      width: 354px;
+      font-size: 15px;
+    }
+  }
+  .header__main-row img {
+    width: 404px;
+    height: 349px;
+  }
+  .finances__stack__row-info__block h2 {
+    font-size: 32px;
+    margin-bottom: 19px;
+  }
+  .finances__stack__row-info__block p {
+    font-size: 14px;
+    width: 364px;
+  }
+  .finances__stack__row-info__block {
+    & img {
+      padding-top: 70px;
+    }
+  }
+  .advantages__row-text__block h2 {
+    font-size: 41px;
+  }
+  .advantages__row-companies__blocks {
+    gap: 5px;
+  }
+  .advantages__row-companies__block h3 {
+    font-size: 20px;
+  }
+  .advantages__row-companies__block p {
+    width: 238px;
+    font-size: 14px;
+  }
+  .plans__row-text__block {
+    margin-bottom: 69px;
+    font-size: 44px;
+  }
+  .plans__row-stage__blocks {
+    gap: 35px;
+  }
+  .plans__row-stage__block h3 {
+    font-size: 20px;
+  }
+  .plans__row-stage__block p {
+    width: 219px;
+    font-size: 14px;
+  }
+  .companies-img__blocks {
+    gap: 28px;
+  }
+  .achub__row-info__block h2 {
+    margin-bottom: 24px;
+    font-size: 41px;
+  }
+  .achub__row-info__block {
+    margin-right: 30px;
+  }
+  .switch__row-text__block h2 {
+    width: 394px;
+    font-size: 30px;
+  }
+}
+
+// 425px
+@media (max-width: 425px) {
+  .header__main-row {
+    flex-direction: column-reverse;
+  }
+  .finances__stack-row {
+    flex-wrap: wrap;
+  }
+  .finances__stack-row img {
+    padding-top: 100px;
+    width: 283px;
+    height: 290px;
+    margin-right: 74px;
+  }
+  .finances__stack__row-info__block h2 {
+    width: 388px;
+    font-size: 41px;
+  }
+  .advantages__row-text__block h2 {
+    font-size: 43px;
+  }
+  .advantages__row-companies__blocks {
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  .advantages__row-companies__block h3 {
+    font-size: 24px;
+  }
+  .advantages__row-companies__block p {
+    width: 270px;
+    font-size: 14px;
+  }
+  .advantages__row-text__block {
+    margin: 0;
+  }
+  .advantages {
+    padding: 34px 0;
+  }
+  .plans__row-text__block {
+    margin-bottom: 69px;
+    font-size: 49px;
+  }
+  .plans__row-stage__blocks {
+    gap: 0;
+  }
+  .plans__row-stage__blocks {
+    flex-wrap: wrap;
+  }
+  .plans__row-text__block {
+    margin-bottom: 30px;
+  }
+  .plans__row-stage__block {
+    margin-bottom: 50px;
+  }
+  .plans__row-stage__block h3 {
+    font-size: 24px;
+  }
+  .plans__row-stage__block p {
+    width: 270px;
+    font-size: 14px;
+  }
+  .companies-row {
+    flex-wrap: wrap;
+  }
+  .companies-text__block {
+    padding: 92px 0 20px 0;
+    width: 236px;
+    margin-right: 116px;
+  }
+  .companies-img__blocks {
+    grid-template-columns: 110px 110px 110px;
+    gap: 33px;
+  }
+  .achub-row {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .achub__row-info__block {
+    margin-right: 0px;
+  }
+  .switch__row-text__block h2 {
+    width: 323px;
+    font-size: 20px;
+  }
+  .switch-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .switch__row-text__block {
+    padding: 0 20px;
+    padding: 50px 0 15px 20px;
+  }
+  .switch__row-btn__block {
+    padding-left: 20px;
+  }
+  .footer__main__row-links__blocks {
+    flex-wrap: wrap;
+  }
+  .footer__main__row__links-block {
+    margin-bottom: 30px;
+  }
+  .footer__main__row__links-block li {
+    width: 144px;
+    margin-bottom: 8px;
+  }
+}
+
+// 375px
+@media (max-width: 375px) {
+  .header__main-row img {
+    width: 304px;
+    height: 249px;
+  }
+  .header__main__row-info__block h1 {
+    font-size: 52px;
+  }
+  .header__main__row-info__block p {
+    margin-bottom: 55px;
+    width: 319px;
+    font-size: 14px;
+  }
+  .header__main__row-info__block h4 {
+    font-size: 16px;
+  }
+  .finances-stack {
+    padding: 32px 0 44px 0;
+  }
+  .finances__stack__row-info__block p {
+    font-size: 13px;
+    width: 300px;
+  }
+  .finances__stack__row-info__block {
+    padding: 51px 0 106px 0;
+  }
+  .companies-img__blocks {
+    gap: 9px;
+  }
+  .achub-row img {
+    width: 183px;
+    height: 351px;
+  }
+  .achub__row-info__block p {
+    width: 304px;
+    margin-bottom: 53px;
+    font-size: 14px;
+  }
+  .footer__main__row__links-block {
+    margin-right: 28px;
+  }
+  .footer__bottom__row-text__block h4 a {
+    font-size: 12px;
+  }
+  .nav ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .nav #login {
+    width: 230px;
+  }
+  .nav #Talk-to-an-Expert {
+    width: 252px;
+  }
+  .nav {
+    width: 310px;
+  }
+  .header__burger-btn {
+    padding: 20px;
+  }
+}
+
+// 320px
+@media (max-width: 320px) {
+  .header__main__row-info__block h1 {
+    font-size: 44px;
+    padding: 17px 0;
+  }
+  .header__main__row-info__block p {
+    margin-bottom: 43px;
+    width: 286px;
+    font-size: 13px;
+  }
+  .header__main__row-info__block h4 {
+    font-size: 15px;
+  }
+  .finances__stack-row img {
+    padding-top: 0;
+    width: 230px;
+    height: 190px;
+    margin-right: 74px;
+  }
+  .finances__stack__row-info__block h2 {
+    width: 326px;
+    font-size: 35px;
+  }
+  .finances__stack__row-info__block p {
+    font-size: 13px;
+    width: 273px;
+  }
+  .finances__stack__row-info__block {
+    padding: 51px 0 72px 0;
+  }
+  .advantages__row-text__block h2 {
+    font-size: 40px;
+  }
+  .advantages__row-text__block {
+    margin-bottom: 20px;
+  }
+  .advantages__row-companies__block p {
+    width: 241px;
+    font-size: 13px;
+  }
+  .plans__row-text__block {
+    font-size: 40px;
+  }
+  .plans__row-stage__block p {
+    width: 246px;
+    font-size: 13px;
+  }
+  .companies-text__block h3 {
+    font-size: 23px;
+  }
+  .companies-img__blocks {
+    padding: 46px 0;
+  }
+  .companies-img__blocks {
+    grid-template-columns: 90px 90px 90px;
+  }
+  .achub-row img {
+    padding: 94px 0 57px 0;
+  }
+  .achub__row-info__block p {
+    width: 268px;
+    margin-bottom: 41px;
+    font-size: 13px;
+  }
+}

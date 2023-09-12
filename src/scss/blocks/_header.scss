@@ -73,3 +73,51 @@
     @include btn-black;
   }
 }
+
+// menu burger
+.header__burger-btn {
+  position: relative;
+  display: none;
+  width: 40px;
+  padding: 31px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+
+  & span {
+    position: absolute;
+    width: 30px;
+    z-index: 5;
+    will-change: transform;
+    transition: transform 0.5s, opacity 0.25s;
+    height: 3px;
+    left: 5px;
+    background-color: $main-color;
+    display: block;
+    &:nth-child(1) {
+      transform: translateY(-10px);
+    }
+    &:nth-child(3) {
+      transform: translateY(10px);
+    }
+  }
+}
+.header.open .header__burger-btn {
+  & span {
+    // Animation
+    &:nth-child(1) {
+      transform: translateY(0) rotate(45deg);
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+    &:nth-child(3) {
+      transform: translateY(0) rotate(-45deg);
+    }
+  }
+}
+
+.header.open .nav {
+  transform: translateX(-100%);
+  visibility: visible;
+}

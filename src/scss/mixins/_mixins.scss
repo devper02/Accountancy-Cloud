@@ -32,6 +32,7 @@
   padding: 12px 30px;
   transition: all 0.2s ease-in-out;
   border: 1px solid transparent;
+  font-weight: $accent-fw;
   background: $btn-color;
   &:hover,
   :focus {
@@ -44,6 +45,7 @@
   border-radius: 100px;
   padding: 12px 30px;
   color: $white-text;
+  font-weight: $accent-fw;
   transition: all 0.2s ease-in-out;
   border: 1px solid #000;
   background: $btn-black-color;
@@ -57,6 +59,7 @@
 @mixin btn-transparent {
   border-radius: 100px;
   padding: 12px 30px;
+  font-weight: $accent-fw;
   color: $btn-black-color;
   transition: all 0.2s ease-in-out;
   border: 1px solid #000;
@@ -68,11 +71,13 @@
   }
 }
 
+//! links
 @mixin links {
   color: $link-color;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   text-decoration: underline;
-  &:hover,:focus {
+  &:hover,
+  :focus {
     color: $hover-link-color;
   }
 }

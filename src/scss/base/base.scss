@@ -1,9 +1,8 @@
-// import reset, fonts, vars, mixins, media
+// import reset, fonts, vars, mixins
 @import "./reset";
 @import "../../../assets/fonts/fonts";
 @import "../vars/vars";
 @import "../mixins/mixins";
-@import "../adaptive/media";
 
 // import blocks
 @import "../blocks/header";
@@ -14,6 +13,17 @@
 @import "../blocks/achub";
 @import "../blocks/switch";
 @import "../blocks/footer";
+.body-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+// import media
+@import "../adaptive/media";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-size: 16px;
