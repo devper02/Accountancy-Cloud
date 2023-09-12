@@ -28,10 +28,12 @@ document.body.addEventListener("click", (event) => {
   document.querySelector(".header").classList.remove("open");
 });
 
-
 menu.addEventListener("click", (event) => {
   const clickedElement = event.target;
   if (clickedElement.hasAttribute("data-open")) {
     header.classList.remove("open");
   }
 });
+
+// AOS
+AOS.init();
